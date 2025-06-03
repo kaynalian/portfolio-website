@@ -7,27 +7,43 @@ import { link } from "fs"
 
 export default function ProjectsSection() {
   const projects = [
+     {
+      title: "Personal Portofolio",
+      description:
+        "A personal website designed to present my projects, skills, and professional background as a web and mobile developer, aimed at showcasing my expertise and attracting clients or employers.",
+      image: "/photos/kena.jpg",
+      tags: ["Mobile", "Portofolio", "Frontend"],
+      link: "#",
+    },
     {
       title: "E-Recruitment Website",
       description:
-        "Complete UI/UX design for a fashion e-commerce mobile application with user-centered design approach.",
-      image: "/photos/recru.jpg",
-      tags: ["Mobile Design", "E-commerce", "User Research"],
+        "E-Recruitment is a web-based platform that streamlines the hiring process by allowing companies to post job vacancies, manage applications, and conduct online candidate selection, while providing applicants with easy access to job info and remote application features.",
+      image: "/photos/mitrarec.jpg",
+      tags: ["Web", "Recruitment", "UI/UX Designer"],
       link: "#",
     },
     {
       title: "Ignitor",
-      description: "Modern dashboard design for a project management SaaS platform with data visualization.",
+      description: "Our team created three educational games on culture, sports, and health to engage youth with fun, interactive learning—promoting cultural awareness, sportsmanship, and healthy habits.",
       image: "/photos/gameeee.jpg",
-      tags: ["Web Design", "Dashboard", "Data Viz"],
+      tags: ["Game", "Game Education", "UI/UX Designer&Game Developer"],
       link: "#",
     },
     {
       title: "Selin",
       description:
-        "Complete brand identity design including logo, color palette, and brand guidelines for a tech startup.",
-      image: "/placeholder.svg?height=300&width=400",
-      tags: ["Branding", "Logo Design", "Guidelines"],
+        "Selin is an online attendance application designed to simplify presence tracking for lecturers and staff, equipped with face recognition and geolocation features for secure and accurate verification.",
+      image: "/photos/selin.jpg",
+      tags: ["Mobile", "Attendance", "Mobile Developer&Video Editor"],
+      link: "#",
+    },
+    {
+      title: "Giggles",
+      description:
+        "Giggles is a health app that helps users identify skin issues and simplifies shopping for skincare products tailored to their needs.",
+      image: "/photos/gles.jpg",
+      tags: ["Mobile", "Skincare", "UI Research&UI/UX Designer"],
       link: "#",
     },
   ]
