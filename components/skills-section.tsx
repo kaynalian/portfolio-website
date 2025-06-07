@@ -1,16 +1,17 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { PenTool, Palette, Layers, Award } from "lucide-react"
+import { PenTool, Palette, Layers, Award, Video, Code, Smartphone, Image, Database } from "lucide-react"
 
 export default function SkillsSection() {
   const skills = [
     { name: "Figma", icon: PenTool, description: "UI/UX Design & Prototyping" },
     { name: "Canva", icon: Palette, description: "Graphic Design & Branding" },
     { name: "CorelDRAW", icon: Layers, description: "Vector Graphics & Illustration" },
-    { name: "Capcut", icon: Layers, description: "Editing & creating videos with effects and music." },
-    { name: "HTML&CSS", icon: Layers, description: "Semantic markup, responsive layout, flexbox & grid, styling consistency" },
-    { name: "Flutter", icon: Layers, description: "A framework for building cross-platform mobile apps with a single codebase." },
+    { name: "Capcut", icon: Video, description: "Editing & creating videos with effects and music." },
+    { name: "Adobe Photoshop", icon: Image, description: "Photo editing, digital art creation, and graphic design" },
+    { name: "MySQL", icon: Database, description: "Database design, SQL queries, and data management" },
+    { name: "HTML&CSS", icon: Code, description: "Semantic markup, responsive layout, flexbox & grid, styling consistency" },
+    { name: "Flutter", icon: Smartphone, description: "A framework for building cross-platform mobile apps with a single codebase." },
   ]
-
   return (
     <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
@@ -36,14 +37,13 @@ export default function SkillsSection() {
         {/* Certifications */}
         <div className="text-center">
           <h3 className="text-2xl font-bold text-gray-800 mb-8">Certifications</h3>
-          <div className="flex justify-center gap-6 flex-wrap"> {/* Tambahkan gap untuk jarak horizontal */}
-
+          <div className="flex justify-center gap-6 flex-wrap">
             <div className="inline-flex items-center bg-gradient-to-r from-pink-50 to-pink-100 rounded-full px-8 py-4 border border-pink-200">
               <Award className="w-6 h-6 text-pink-500 mr-3" />
               <a
-                href="/docs/Cisco.pdf" // Ganti dengan path file PDF atau URL tujuan
-                target="_blank" // Membuka di tab baru
-                rel="noopener noreferrer" // Keamanan tambahan untuk link eksternal
+                href="/docs/Cisco.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-lg font-medium text-gray-800 hover:underline"
               >
                 CCNA: Switching, Routing, and Wireless Essentials
@@ -53,9 +53,9 @@ export default function SkillsSection() {
             <div className="inline-flex items-center bg-gradient-to-r from-pink-50 to-pink-100 rounded-full px-8 py-4 border border-pink-200">
               <Award className="w-6 h-6 text-pink-500 mr-3" />
               <a
-                href="/docs/DatabaseDesign.pdf" // Ganti dengan path file PDF atau URL tujuan
-                target="_blank" // Membuka di tab baru
-                rel="noopener noreferrer" // Keamanan tambahan untuk link eksternal
+                href="/docs/DatabaseDesign.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-lg font-medium text-gray-800 hover:underline"
               >
                 Database Design with SQL
@@ -65,28 +65,26 @@ export default function SkillsSection() {
             <div className="inline-flex items-center bg-gradient-to-r from-pink-50 to-pink-100 rounded-full px-8 py-4 border border-pink-200">
               <Award className="w-6 h-6 text-pink-500 mr-3" />
               <a
-                href="/docs/DatabaseProgramming.pdf" // Ganti dengan path file PDF atau URL tujuan
-                target="_blank" // Membuka di tab baru
-                rel="noopener noreferrer" // Keamanan tambahan untuk link eksternal
+                href="/docs/DatabaseProgramming.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-lg font-medium text-gray-800 hover:underline"
               >
                 Database Programming with SQL
               </a>
             </div>
 
-                        <div className="inline-flex items-center bg-gradient-to-r from-pink-50 to-pink-100 rounded-full px-8 py-4 border border-pink-200">
+            <div className="inline-flex items-center bg-gradient-to-r from-pink-50 to-pink-100 rounded-full px-8 py-4 border border-pink-200">
               <Award className="w-6 h-6 text-pink-500 mr-3" />
               <a
-                href="/docs/SertifAI.pdf" // Ganti dengan path file PDF atau URL tujuan
-                target="_blank" // Membuka di tab baru
-                rel="noopener noreferrer" // Keamanan tambahan untuk link eksternal
+                href="/docs/SertifAI.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-lg font-medium text-gray-800 hover:underline"
               >
                 Career Essentials in Generative AI
               </a>
             </div>
-
-
           </div>
         </div>
       </div>

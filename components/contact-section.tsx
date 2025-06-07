@@ -9,8 +9,12 @@ export default function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const mailtoLink = `mailto:kartika.yuliana@email.com?subject=Message from ${name}&body=Name: ${name}%0AEmail: ${email}%0A%0A${message}`
-    window.location.href = mailtoLink
+
+    // Pastikan kode hanya dijalankan di klien
+    if (typeof window !== "undefined") {
+      const mailtoLink = `mailto:kartika.yuliana@email.com?subject=Message from ${name}&body=Name: ${name}%0AEmail: ${email}%0A%0A${message}`
+      window.location.href = mailtoLink
+    }
   }
 
   return (

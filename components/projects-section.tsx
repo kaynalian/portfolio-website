@@ -21,14 +21,14 @@ export default function ProjectsSection() {
         "E-Recruitment is a web-based platform that streamlines the hiring process by allowing companies to post job vacancies, manage applications, and conduct online candidate selection, while providing applicants with easy access to job info and remote application features.",
       image: "/photos/mitrarec.jpg",
       tags: ["Web", "Recruitment", "UI/UX Designer"],
-      link: "#",
+      link: "https://www.figma.com/design/r15lPnkpeG6FnAxVHd5Qnz/Aplikasi-system-HRD-Management-untuk-Proses-recruitment%2C-magang%2C-dan-training%2C-dan-penilaian-kinerja?node-id=144-111&t=Eey64HJcEzhznJ7Q-0",
     },
     {
       title: "Ignitor",
       description: "Our team created three educational games on culture, sports, and health to engage youth with fun, interactive learning—promoting cultural awareness, sportsmanship, and healthy habits.",
       image: "/photos/gameeee.jpg",
       tags: ["Game", "Game Education", "UI/UX Designer&Game Developer"],
-      link: "#",
+      link: "https://ignitor.codewithwan.tech/",
     },
     {
       title: "Selin",
@@ -36,7 +36,7 @@ export default function ProjectsSection() {
         "Selin is an online attendance application designed to simplify presence tracking for lecturers and staff, equipped with face recognition and geolocation features for secure and accurate verification.",
       image: "/photos/selin.jpg",
       tags: ["Mobile", "Attendance", "Mobile Developer&Video Editor"],
-      link: "#",
+      link: "https://drive.google.com/file/d/1uT2qWhDghJf2q3M-ZD2FMzkmWodi4DTV/view?usp=sharing",
     },
     {
       title: "Giggles",
@@ -44,7 +44,7 @@ export default function ProjectsSection() {
         "Giggles is a health app that helps users identify skin issues and simplifies shopping for skincare products tailored to their needs.",
       image: "/photos/gles.jpg",
       tags: ["Mobile", "Skincare", "UI Research&UI/UX Designer"],
-      link: "#",
+      link: "https://www.figma.com/design/bLC1qf4ThEslYdAnKP9sJN/giggles?node-id=2001-826&t=I5t5JUhY7Ai9lDKO-0",
     },
   ]
 
