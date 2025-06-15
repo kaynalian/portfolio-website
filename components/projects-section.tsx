@@ -7,6 +7,14 @@ import { link } from "fs"
 
 export default function ProjectsSection() {
   const projects = [
+    {
+      title: "SweetBite",
+      description:
+        "Mobile app for indulging in premium cakes and desserts—anytime, anywhere. Designed for true dessert lovers, SweetLove blends romantic elegance with irresistible visuals to give you a smooth, personal, and heartwarming shopping experience.",
+      image: "/photos/sweetbite.jpg",
+      tags: ["Mobile", " E-commerce", "UI/UX Designer"],
+      link: "https://www.figma.com/design/j6OsAKElFm38lHaYK8rQTz/lovevelvet?node-id=0-1&t=l2bg8ZTjJG33CZGP-1",
+    },
      {
       title: "Personal Portofolio",
       description:

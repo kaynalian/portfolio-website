@@ -1,22 +1,7 @@
 import Link from "next/link"
 import { Mail, Linkedin } from "lucide-react"
-import { useState } from "react"
 
 export default function ContactSection() {
-  const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-
-    // Pastikan kode hanya dijalankan di klien
-    if (typeof window !== "undefined") {
-      const mailtoLink = `mailto:kartika.yuliana@email.com?subject=Message from ${name}&body=Name: ${name}%0AEmail: ${email}%0A%0A${message}`
-      window.location.href = mailtoLink
-    }
-  }
-
   return (
     <section id="contact" className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-pink-50 to-white">
       <div className="max-w-3xl mx-auto text-center">
@@ -27,14 +12,17 @@ export default function ContactSection() {
         </p>
 
         {/* Contact Form */}
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form
+          action="https://formspree.io/f/xnnvdweo"
+          method="POST"
+          className="space-y-4"
+        >
           <div>
             <input
               type="text"
               id="name"
+              name="name"
               placeholder="Your Name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
               required
               className="w-full px-4 py-2 text-sm border border-gray-300 rounded-md shadow-sm focus:ring-pink-400 focus:border-pink-400"
             />
@@ -44,9 +32,8 @@ export default function ContactSection() {
             <input
               type="email"
               id="email"
+              name="email"
               placeholder="Your Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
               required
               className="w-full px-4 py-2 text-sm border border-gray-300 rounded-md shadow-sm focus:ring-pink-400 focus:border-pink-400"
             />
@@ -55,9 +42,8 @@ export default function ContactSection() {
           <div>
             <textarea
               id="message"
+              name="message"
               placeholder="Your Message"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
               required
               rows={4}
               className="w-full px-4 py-2 text-sm border border-gray-300 rounded-md shadow-sm focus:ring-pink-400 focus:border-pink-400"

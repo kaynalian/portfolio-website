@@ -7,7 +7,6 @@ export default function SkillsSection() {
     { name: "Canva", icon: Palette, description: "Graphic Design & Branding" },
     { name: "CorelDRAW", icon: Layers, description: "Vector Graphics & Illustration" },
     { name: "Capcut", icon: Video, description: "Editing & creating videos with effects and music." },
-    { name: "Adobe Photoshop", icon: Image, description: "Photo editing, digital art creation, and graphic design" },
     { name: "MySQL", icon: Database, description: "Database design, SQL queries, and data management" },
     { name: "HTML&CSS", icon: Code, description: "Semantic markup, responsive layout, flexbox & grid, styling consistency" },
     { name: "Flutter", icon: Smartphone, description: "A framework for building cross-platform mobile apps with a single codebase." },
