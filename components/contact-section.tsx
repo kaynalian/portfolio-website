@@ -61,7 +61,7 @@ export default function ContactSection() {
         {/* Social Links */}
         <div className="flex justify-center items-center gap-4 mt-8">
           <Link
-            href="mailto:kartika.yuliana@email.com"
+            href="mailto:krtkayullian18@email.com"
             className="flex items-center gap-2 text-pink-500 hover:text-pink-600 transition-all duration-300"
           >
             <Mail className="w-5 h-5" />
