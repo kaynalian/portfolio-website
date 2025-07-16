@@ -39,7 +39,7 @@ export default function HeroSection() {
               </Button>
               <Button
                 variant="outline"
-                 onClick={() => window.open("/docs/CV_KARTIKAFIX.pdf", "_blank")} // Ganti dengan path file PDF Anda
+                 onClick={() => window.open("/docs/KartikaYuliana-CV.pdf", "_blank")} // Ganti dengan path file PDF Anda
                 className="border-pink-300 text-pink-600 hover:bg-pink-50 px-8 py-3 rounded-full transition-all duration-300"
               >
                 Download CV

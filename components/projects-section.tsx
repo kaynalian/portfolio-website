@@ -8,6 +8,14 @@ import { link } from "fs"
 export default function ProjectsSection() {
   const projects = [
     {
+      title: "Redvelvet",
+      description:
+        "This poster represents the store’s concept of specializing in red velvet as its signature offering, featuring visually appealing elements designed to entice dessert lovers.",
+      image: "/photos/lovelvet.jpg",
+      tags: [" E-commerce", "Graphic Designer"],
+      link: "https://www.canva.com/design/DAGpkTyUAhE/e9R6Xnao1VlLEKSYu7P0TA/edit?utm_content=DAGpkTyUAhE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    },
+    {
       title: "SweetBite",
       description:
         "Mobile app for indulging in premium cakes and desserts—anytime, anywhere. Designed for true dessert lovers, SweetLove blends romantic elegance with irresistible visuals to give you a smooth, personal, and heartwarming shopping experience.",
